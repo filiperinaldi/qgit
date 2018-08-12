@@ -1,6 +1,13 @@
 qgit, a git GUI viewer
 ======================
 
+ATTENTION:
+This is my personal fork of QGit used to push changes to the official project
+(https://github.com/tibirna/qgit/).
+The branch "prosecco" is an integration branch with all main features and fixes
+not yet (or ever) accepted by the upstream project.
+
+
 With qgit you will be able to browse revisions history, view patch content
 and changed files, graphically following different development branches.
 
