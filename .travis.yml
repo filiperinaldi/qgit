@@ -1,9 +1,19 @@
-sudo: required
-dist: trusty
 language: cpp
 compiler:
   - gcc
   - clang
+
+matrix:
+  include:
+    - os:linux
+      sudo:required
+      dist: trusty
+    - os:linux
+      sudo:required
+      dist: xenial
+    - os:linux
+      sudo:required
+      dist: bionic
 
 env:
   matrix:
